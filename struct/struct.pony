@@ -52,10 +52,10 @@ The format conversion specification is described in the table below.
 
 | Format | C Type             | Pony type | Standard size |
 |   -    |    -               |      -    |        -      |
-| x	     | pad byte           |	no value  | 1             |
+| x      | pad byte           |	no value  | 1             |
 | c      | char               |	String    |	1	            |
 | b      | signed char        | I8        | 1             |
-| B	     | unsigned char      | U8        | 1             |
+| B      | unsigned char      | U8        | 1             |
 | ?      | _Bool              | Bool      | 1             |
 | h      | short              | I16       | 2             |
 | H      | unsigned short     | U16       | 2             |
