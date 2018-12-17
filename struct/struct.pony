@@ -53,14 +53,14 @@ The format conversion specification is described in the table below.
 | Format | C Type             | Pony type | Standard size |
 |   -    |    -               |      -    |        -      |
 | x      | pad byte           |	no value  | 1             |
-| c      | char               |	String    |	1	            |
+| c      | char               |	String    | 1             |
 | b      | signed char        | I8        | 1             |
 | B      | unsigned char      | U8        | 1             |
 | ?      | _Bool              | Bool      | 1             |
 | h      | short              | I16       | 2             |
 | H      | unsigned short     | U16       | 2             |
 | i      | int                | I32       | 4             |
-| I      | unsigned int       | U32       | 4	            |
+| I      | unsigned int       | U32       | 4             |
 | l      | long               | I32       | 4             |
 | L      | unsigned long      | U32       | 4             |
 | q      | long long          | I64       | 8             |
