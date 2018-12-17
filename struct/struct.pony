@@ -40,7 +40,7 @@ let message: String = unpacked(2)?
 
 ## Byte Order
 Byte order can be optionally specified with the first character in the format
-string.
+string. If left out, Big Endian is used as the default.
 
 | Byte order | character |
 |     -      |     -     |
